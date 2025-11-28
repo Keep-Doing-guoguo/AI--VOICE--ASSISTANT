@@ -35,12 +35,12 @@ Python（FastAPI、WebSocket、DashScope、pyaudio）、JavaScript（MediaRecord
 
 1. /v1/voice-chat HTTP 接口：支持上传音频文件进行语音识别和 LLM 回答，适合离线处理场景。
 
-![](./v1/voice-chat.png)
+![这是图片](./imgs/voice-chat.png)
 
 
 2. /v1/voice-chat-stream HTTP 接口：支持上传音频文件进行语音识别和 LLM 流式回答，适合需要逐步获取回答的场景。
 
-![](./v1/前端流失返回.png)
+![这是图片](./imgs/前端流失返回.png)
 
 3. /ws/voice-stream WebSocket 接口：支持浏览器实时录音流式传输，适合在线实时交互场景。
 
